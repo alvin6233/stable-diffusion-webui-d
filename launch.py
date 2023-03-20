@@ -126,7 +126,8 @@ def is_installed(package):
     except ModuleNotFoundError:
         return False
 
-    return spec is not None
+    # return spec is not None
+    return True
 
 
 def repo_dir(name):
@@ -332,7 +333,7 @@ def prepare_environment():
 
     if update_all_extensions:
         git_pull_recursive(os.path.join(data_path, dir_extensions))
-    
+
     if "--exit" in sys.argv:
         print("Exiting because of --exit argument")
         exit(0)

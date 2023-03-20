@@ -30,3 +30,5 @@ torchsde
 safetensors
 psutil
 basicsr
+open_clip_torch
+git+https://github.com/openai/CLIP.git
