@@ -244,21 +244,21 @@ def prepare_environment():
     commandline_args = os.environ.get('COMMANDLINE_ARGS', "")
 
     xformers_package = os.environ.get('XFORMERS_PACKAGE', 'xformers==0.0.16rc425')
-    gfpgan_package = os.environ.get('GFPGAN_PACKAGE', "git+https://gitee.com/arkMon/GFPGAN.git")
-    clip_package = os.environ.get('CLIP_PACKAGE', "git+https://gitee.com/arkMon/CLIP.git")
-    openclip_package = os.environ.get('OPENCLIP_PACKAGE', "git+https://gitee.com/arkMon/open_clip.git")
+    gfpgan_package = "git+https://gitee.com/arkMon/GFPGAN.git"
+    clip_package = "git+https://gitee.com/arkMon/CLIP.git"
+    openclip_package = "git+https://gitee.com/arkMon/open_clip.git"
 
-    stable_diffusion_repo = os.environ.get('STABLE_DIFFUSION_REPO', "https://gitee.com/arkMon/stablediffusion.git")
-    taming_transformers_repo = os.environ.get('TAMING_TRANSFORMERS_REPO', "https://gitee.com/arkMon/taming-transformers.git")
-    k_diffusion_repo = os.environ.get('K_DIFFUSION_REPO', 'https://gitee.com/arkMon/k-diffusion.git')
-    codeformer_repo = os.environ.get('CODEFORMER_REPO', 'https://gitee.com/arkMon/CodeFormer.git')
-    blip_repo = os.environ.get('BLIP_REPO', 'https://gitee.com/arkMon/BLIP.git')
+    stable_diffusion_repo = "https://gitee.com/arkMon/stablediffusion.git"
+    taming_transformers_repo = "https://gitee.com/arkMon/taming-transformers.git"
+    k_diffusion_repo = 'https://gitee.com/arkMon/k-diffusion.git'
+    codeformer_repo = 'https://gitee.com/arkMon/CodeFormer.git'
+    blip_repo = 'https://gitee.com/arkMon/BLIP.git'
 
-    stable_diffusion_commit_hash = os.environ.get('STABLE_DIFFUSION_COMMIT_HASH', "47b6b607fdd31875c9279cd2f4f16b92e4ea958e")
-    taming_transformers_commit_hash = os.environ.get('TAMING_TRANSFORMERS_COMMIT_HASH', "24268930bf1dce879235a7fddd0b2355b84d7ea6")
-    k_diffusion_commit_hash = os.environ.get('K_DIFFUSION_COMMIT_HASH', "5b3af030dd83e0297272d861c19477735d0317ec")
-    codeformer_commit_hash = os.environ.get('CODEFORMER_COMMIT_HASH', "c5b4593074ba6214284d6acd5f1719b6c5d739af")
-    blip_commit_hash = os.environ.get('BLIP_COMMIT_HASH', "48211a1594f1321b00f14c9f7a5b4813144b2fb9")
+    stable_diffusion_commit_hash = "47b6b607fdd31875c9279cd2f4f16b92e4ea958e"
+    taming_transformers_commit_hash = "24268930bf1dce879235a7fddd0b2355b84d7ea6"
+    k_diffusion_commit_hash = "5b3af030dd83e0297272d861c19477735d0317ec"
+    codeformer_commit_hash = "c5b4593074ba6214284d6acd5f1719b6c5d739af"
+    blip_commit_hash = "48211a1594f1321b00f14c9f7a5b4813144b2fb9"
 
     sys.argv += shlex.split(commandline_args)
 
