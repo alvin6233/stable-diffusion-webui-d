@@ -1,6 +1,5 @@
 blendmodes
 accelerate
-basicsr
 fonts
 font-roboto
 gfpgan
@@ -30,3 +29,4 @@ GitPython
 torchsde
 safetensors
 psutil
+basicsr
