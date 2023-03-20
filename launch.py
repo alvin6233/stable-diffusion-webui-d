@@ -152,7 +152,7 @@ def check_run_python(code):
 
 def git_clone(url, dir, name, commithash=None):
     # TODO clone into temporary dir and move if successful
-
+    print("git cloning: "+url+"-"+dir+"-"+name)
     if os.path.exists(dir):
         if commithash is None:
             return
