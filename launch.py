@@ -9,6 +9,7 @@ import argparse
 import json
 
 
+
 parser = argparse.ArgumentParser(add_help=False)
 parser.add_argument("--ui-settings-file", type=str, default='config.json')
 parser.add_argument("--data-dir", type=str, default=os.path.dirname(os.path.realpath(__file__)))
