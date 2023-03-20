@@ -1,3 +1,3 @@
 import os
 
-os.system("bash lauch.py")
+os.system("bash launch.py")
