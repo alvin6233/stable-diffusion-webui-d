@@ -35,8 +35,10 @@ fi
 # python3 executable
 if [[ -z "${python_cmd}" ]]
 then
-    python_cmd="/home/PJLAB/xujun/miniconda3/envs/rwkv-instruct/bin/python"
+    python_cmd="/usr/local/bin/python"
+
 fi
+echo ${python_cmd}
 
 # git executable
 if [[ -z "${GIT}" ]]
@@ -131,6 +133,7 @@ do
         exit 1
     fi
 done
+
 
 if ! "${python_cmd}" -c "import venv" &>/dev/null
 then
