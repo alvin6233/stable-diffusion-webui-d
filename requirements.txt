@@ -30,5 +30,5 @@ torchsde
 safetensors
 psutil
 basicsr
-open_clip_torch
 git+https://gitee.com/arkMon/CLIP.git
+open_clip_torch
