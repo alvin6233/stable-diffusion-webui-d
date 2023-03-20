@@ -1,3 +1,3 @@
 import os
 
-os.system("bash webui.sh")
+os.system("bash lauch.py")
