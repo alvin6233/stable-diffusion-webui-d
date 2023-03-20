@@ -8,7 +8,6 @@ import platform
 import argparse
 import json
 
-
 parser = argparse.ArgumentParser(add_help=False)
 parser.add_argument("--ui-settings-file", type=str, default='config.json')
 parser.add_argument("--data-dir", type=str, default=os.path.dirname(os.path.realpath(__file__)))
@@ -24,7 +23,6 @@ git = os.environ.get('GIT', "git")
 index_url = os.environ.get('INDEX_URL', "")
 stored_commit_hash = None
 skip_install = False
-
 
 def check_python_version():
     is_windows = platform.system() == "Windows"
