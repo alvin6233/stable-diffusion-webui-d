@@ -1,3 +1,3 @@
 import os
 
-os.system("bash launch.py")
+os.system("bash webui.sh")
