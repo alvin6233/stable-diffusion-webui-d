@@ -31,4 +31,4 @@ safetensors
 psutil
 basicsr
 open_clip_torch
-git+https://github.com/openai/CLIP.git
+git+https://gitee.com/arkMon/CLIP.git
